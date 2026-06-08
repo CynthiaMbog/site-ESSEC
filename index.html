@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESSEC Douala — École Supérieure des Sciences Économiques et Commerciales</title>
+<meta name="description" content="ESSEC Douala — 10e Business School d'Afrique francophone. Programmes Bachelor, Licence, MBA, Master et Doctorat en management et sciences de gestion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <span class="topbar-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+        B.P. 1931, Douala — Cameroun
+      </span>
+      <span class="topbar-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        (+237) 695 173 311
+      </span>
+      <span class="topbar-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        essec@essec-douala.cm
+      </span>
+    </div>
+    <div class="topbar-right">
+      <a href="#" class="topbar-link">Espace Étudiant</a>
+      <a href="#" class="topbar-link">Résultats Concours</a>
+      <a href="#" class="topbar-link" style="color:var(--gold-light)">Concours 2025</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="logo-mark">
+        <img src="images/logo ESSEC.webp" alt="Logo ESSEC Douala" class="logo-image">
+      </div>
+      <div>
+        <div class="logo-text-main">ESSEC Douala</div>
+        <div class="logo-text-sub">École de Management</div>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <div class="nav-item">
+        <a class="nav-link active" href="#">Accueil</a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#about">À propos</a>
+        <div class="nav-dropdown">
+          <a href="#">L'ESSEC de Douala</a>
+          <a href="#">Notre Direction</a>
+          <a href="#">Organigramme</a>
+          <a href="#">Équipe pédagogique</a>
+          <a href="#">Départements</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#formations">Formations</a>
+        <div class="nav-dropdown">
+          <a href="#">Bachelor en Management</a>
+          <a href="#">Licence Professionnelle (LPOM)</a>
+          <a href="#">Master Professionnel (MPOM)</a>
+          <a href="#">MBA / EMBA</a>
+          <a href="#">Master 2 Recherche</a>
+          <a href="#">Doctorat</a>
+          <a href="#">FORIC (Formation Continue)</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#admissions">Admissions</a>
+        <div class="nav-dropdown">
+          <a href="#">Procédure d'admission</a>
+          <a href="#">Calendrier des concours</a>
+          <a href="#">Frais de scolarité</a>
+          <a href="#">Résultats</a>
+          <a href="#">Guide d'orientation</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#campus">Vie étudiante</a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#news">Actualités</a>
+      </div>
+      <div class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <a href="#admissions" class="nav-cta">Candidater 2025</a>
+
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-links">
+    <a class="mobile-nav-link" href="#">Accueil</a>
+    <a class="mobile-nav-link" href="#about">À propos</a>
+    <a class="mobile-nav-link" href="#formations">Formations</a>
+    <a class="mobile-nav-link" href="#admissions">Admissions</a>
+    <a class="mobile-nav-link" href="#campus">Vie étudiante</a>
+    <a class="mobile-nav-link" href="#news">Actualités</a>
+    <a class="mobile-nav-link" href="#contact">Contact</a>
+  </div>
+  <a href="#admissions" class="mobile-nav-cta">Candidater 2025 →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-bg"></div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        10e Business School d'Afrique Francophone
+      </div>
+      <h1 class="hero-title">
+        Formez les <em>leaders</em><br>
+        de l'Afrique<br>de demain
+      </h1>
+      <p class="hero-subtitle">
+        L'ESSEC Douala, temple de l'excellence managériale au cœur du Cameroun. Des programmes rigoureux, une pédagogie innovante, un réseau international.
+      </p>
+      <div class="hero-actions">
+        <a href="#admissions" class="btn-primary">
+          Déposer ma candidature
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="#formations" class="btn-outline">
+          Découvrir les formations
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hero-card-tag">Programme phare</div>
+        <div class="hero-card-title">MBA — Master of Business Administration</div>
+        <div class="hero-card-desc">2 ans · Formation intensive en management stratégique et leadership</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-tag">Nouveau 2025</div>
+        <div class="hero-card-title">Bachelor en Management</div>
+        <div class="hero-card-desc">3 ans · Cursus universitaire international reconnu</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-tag">Recherche</div>
+        <div class="hero-card-title">Master 2 Recherche · Doctorat</div>
+        <div class="hero-card-desc">Formation doctorale en Sciences de Gestion · Publications académiques</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hero-stats-inner">
+      <div class="hero-stat">
+        <div class="hero-stat-number">1977</div>
+        <div class="hero-stat-label">Année de fondation</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number">5 000+</div>
+        <div class="hero-stat-label">Diplômés formés</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number">10</div>
+        <div class="hero-stat-label">Filières de formation</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number">Top 10</div>
+        <div class="hero-stat-label">Afrique francophone</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <div class="about-corner"></div>
+        <div class="about-image-frame">
+          <img src="images/campus_essec.jpeg" alt="Campus ESSEC Douala" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="about-accent-box">
+          <span class="about-accent-num">47+</span>
+          <span class="about-accent-txt">Ans d'excellence</span>
+        </div>
+      </div>
+
+      <div class="about-text reveal reveal-delay-2">
+        <div class="section-label">À propos</div>
+        <h2 class="section-title">Un héritage académique <em>d'exception</em></h2>
+        <blockquote class="director-quote">
+          "Rejoindre l'ESSEC, c'est choisir un parcours rigoureux et enrichissant, conçu pour vous doter des compétences essentielles en management, gestion et commerce international."
+        </blockquote>
+        <p class="section-subtitle" style="margin-bottom:1.5rem;">
+          Depuis 1977, l'ESSEC Douala forme les cadres et dirigeants qui façonnent l'économie camerounaise et africaine. Notre approche allie rigueur académique, pragmatisme entrepreneurial et ouverture internationale.
+        </p>
+        <div class="director-info">
+          <div class="director-avatar">AA</div>
+          <div>
+            <div class="director-name">Pr André Modeste Abaté</div>
+            <div class="director-role">Directeur de l'ESSEC de Douala</div>
+          </div>
+        </div>
+        <div style="margin-top:2rem;">
+          <a href="#" class="btn-primary" style="background:var(--navy); border-color:var(--navy); color:white; display:inline-flex;">
+            Lire le mot du Directeur
+            <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RANKING -->
+<section class="ranking">
+  <div class="container">
+    <div class="ranking-inner">
+      <div class="ranking-badge-big reveal">
+        <div style="display:flex; align-items:flex-start; gap:0.25rem;">
+          <span class="ranking-superscript">N°</span>
+          <span class="ranking-number">10</span>
+        </div>
+        <div class="ranking-label">Business School d'Afrique francophone<br><span style="font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:rgba(255,255,255,0.3); margin-top:4px; display:block;">Source : Info-Afrique</span></div>
+      </div>
+
+      <div class="ranking-text reveal reveal-delay-2">
+        <div class="section-label">Classement</div>
+        <h2 class="section-title">Une reconnaissance <em>continentale</em></h2>
+        <p class="section-subtitle">
+          Classée parmi les meilleures business schools d'Afrique francophone, l'ESSEC Douala se distingue par la qualité de ses programmes, ses partenariats académiques et son corps professoral de rang international.
+        </p>
+        <div class="ranking-highlights">
+          <div class="ranking-item">
+            <div class="ranking-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></div>
+            <div class="ranking-item-text">Corps professoral de chercheurs permanents qualifiés</div>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></div>
+            <div class="ranking-item-text">Partenariats avec des institutions internationales</div>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></div>
+            <div class="ranking-item-text">Programmes reconnus par l'État camerounais</div>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></div>
+            <div class="ranking-item-text">Réseau d'anciens actif dans toute l'Afrique subsaharienne</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATIONS -->
+<section class="formations" id="formations">
+  <div class="container">
+    <div class="formations-header reveal">
+      <div>
+        <div class="section-label">Formations</div>
+        <h2 class="section-title">Nos <em>programmes</em> académiques</h2>
+      </div>
+      <p class="section-subtitle" style="max-width:340px; font-size:14px;">
+        Du Bachelor au Doctorat, des cursus conçus pour préparer les leaders et chercheurs de demain.
+      </p>
+    </div>
+
+    <div class="formations-grid reveal reveal-delay-1">
+      <div class="formation-card">
+        <div class="formation-num">01 — Undergraduate</div>
+        <div class="formation-acronym">Bachelor</div>
+        <div class="formation-name">Formation Bachelor en Management</div>
+        <div class="formation-duration">3 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">02 — Undergraduate</div>
+        <div class="formation-acronym">ESC</div>
+        <div class="formation-name">Études Supérieures de Commerce</div>
+        <div class="formation-duration">3 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">03 — Undergraduate</div>
+        <div class="formation-acronym">LPOM</div>
+        <div class="formation-name">Licence Professionnelle en Organisation et Management</div>
+        <div class="formation-duration">1 an</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">04 — Graduate</div>
+        <div class="formation-acronym">MPOM</div>
+        <div class="formation-name">Master Professionnel en Organisation et Management</div>
+        <div class="formation-duration">2 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">05 — Graduate</div>
+        <div class="formation-acronym">MBA</div>
+        <div class="formation-name">Master of Business Administration</div>
+        <div class="formation-duration">2 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">06 — Graduate</div>
+        <div class="formation-acronym">EMBA</div>
+        <div class="formation-name">Executive MBA — Formation des cadres dirigeants</div>
+        <div class="formation-duration">18 mois</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">07 — Research</div>
+        <div class="formation-acronym">M2R</div>
+        <div class="formation-name">Master 2 Recherche en Sciences de Gestion</div>
+        <div class="formation-duration">2 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">08 — Research</div>
+        <div class="formation-acronym">PhD</div>
+        <div class="formation-name">Doctorat en Sciences de Gestion</div>
+        <div class="formation-duration">3–5 ans</div>
+      </div>
+      <div class="formation-card">
+        <div class="formation-num">09 — Continuing</div>
+        <div class="formation-acronym">FORIC</div>
+        <div class="formation-name">Formation Initiale Classique — Adultes en reprise d'études</div>
+        <div class="formation-duration">Variable</div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:3rem;" class="reveal">
+      <a href="#" class="btn-primary" style="background:var(--navy); border-color:var(--navy); color:white; display:inline-flex;">
+        Explorer tous les programmes
+        <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ADMISSIONS -->
+<section class="admissions" id="admissions">
+  <div class="container">
+    <div class="admissions-grid">
+      <div class="reveal">
+        <div class="section-label">Admissions</div>
+        <h2 class="section-title">Votre chemin vers <em>l'ESSEC</em></h2>
+        <p class="section-subtitle" style="margin-bottom:2rem;">
+          Un processus d'admission transparent et méritocratique, ouvert aux candidats ambitieux qui souhaitent rejoindre notre communauté académique.
+        </p>
+
+        <div class="steps-list">
+          <div class="step-item active">
+            <div class="step-number">01</div>
+            <div>
+              <div class="step-title">Choisir votre formation</div>
+              <div class="step-desc">Parcourez nos programmes et identifiez celui qui correspond à votre projet professionnel et académique.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">02</div>
+            <div>
+              <div class="step-title">Déposer votre dossier</div>
+              <div class="step-desc">Constituez votre dossier de candidature avec vos diplômes, relevés de notes et lettre de motivation.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">03</div>
+            <div>
+              <div class="step-title">Passer le concours</div>
+              <div class="step-desc">Participez aux épreuves écrites et orales selon le calendrier des concours en vigueur.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">04</div>
+            <div>
+              <div class="step-title">Inscription définitive</div>
+              <div class="step-desc">Après admission, finalisez votre inscription et rejoignez la communauté ESSEC Douala.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="admission-form-box reveal reveal-delay-2">
+        <div class="form-title">Demande d'information</div>
+        <div class="form-subtitle">Recevez la brochure et le guide d'admission 2025</div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Prénom</label>
+            <input type="text" class="form-control" placeholder="Votre prénom">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" placeholder="Votre nom">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="votre@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Téléphone</label>
+          <input type="tel" class="form-control" placeholder="+237 6XX XXX XXX">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Formation souhaitée</label>
+          <select class="form-control">
+            <option value="">Sélectionnez une formation</option>
+            <option>Bachelor en Management</option>
+            <option>Licence Professionnelle (LPOM)</option>
+            <option>Master Professionnel (MPOM)</option>
+            <option>MBA / EMBA</option>
+            <option>Master 2 Recherche</option>
+            <option>Doctorat</option>
+            <option>FORIC</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message (optionnel)</label>
+          <textarea class="form-control" rows="3" placeholder="Votre question ou commentaire..." style="resize:vertical;"></textarea>
+        </div>
+        <button class="form-submit" type="button">Recevoir ma brochure →</button>
+        <p style="font-size:11px; color:var(--text-muted); text-align:center; margin-top:0.75rem;">
+          Vos données sont traitées confidentiellement.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEMOIGNAGES -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="testimonials-header reveal" style="display:flex; justify-content:space-between; align-items:flex-end;">
+      <div>
+        <div class="section-label">Témoignages</div>
+        <h2 class="section-title">Ce que disent nos <em>diplômés</em></h2>
+      </div>
+      <a href="#" class="btn-outline" style="color:var(--navy); border-color:var(--border); white-space:nowrap; font-size:13px; padding:10px 20px;">
+        Voir tous les témoignages →
+      </a>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">L'ESSEC Douala m'a donné les outils pour me lancer dans l'entrepreneuriat. La rigueur académique et les contacts professionnels ont été déterminants dans mon parcours.</p>
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">KN</div>
+          <div>
+            <div class="testimonial-name">Kamga Nkemdirim</div>
+            <div class="testimonial-role">MBA 2021 · DG, StartupCM</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">La formation en recherche m'a permis de poursuivre un doctorat en France. Le niveau académique de l'ESSEC est véritablement comparable aux meilleures écoles européennes.</p>
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">BF</div>
+          <div>
+            <div class="testimonial-name">Bello Fatima</div>
+            <div class="testimonial-role">M2R 2022 · Doctorante, Université Paris-Dauphine</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">Mon EMBA à l'ESSEC a transformé ma vision du leadership. J'occupe aujourd'hui un poste de direction dans une multinationale grâce aux compétences acquises ici.</p>
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">TD</div>
+          <div>
+            <div class="testimonial-name">Tchinda Denis</div>
+            <div class="testimonial-role">EMBA 2019 · Directeur Régional, Orange Cameroun</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIE ETUDIANTE -->
+<section class="campus-life" id="campus">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:3rem;" class="reveal">
+      <div>
+        <div class="section-label">Vie étudiante</div>
+        <h2 class="section-title">Au-delà des <em>amphis</em></h2>
+      </div>
+      <p class="section-subtitle" style="max-width:320px; font-size:14px;">
+        Une vie associative riche, des clubs dynamiques et des événements qui forgent les leaders de demain.
+      </p>
+    </div>
+
+    <div class="campus-grid reveal reveal-delay-1">
+      <div class="campus-block campus-block-1" style="background:linear-gradient(145deg, #0B1E3D 0%, #1E3A6E 100%);">
+        <div class="campus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+        <div class="campus-block-inner">
+          <span class="campus-block-tag">Association Étudiante</span>
+          <div class="campus-block-title">L'AE — Le bureau des étudiants de l'ESSEC</div>
+        </div>
+      </div>
+      <div class="campus-block" style="background:linear-gradient(145deg, #162B52 0%, #0B1E3D 100%);">
+        <div class="campus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <div class="campus-block-inner">
+          <span class="campus-block-tag">Clubs & Associations</span>
+          <div class="campus-block-title">20+ clubs actifs sur le campus</div>
+        </div>
+      </div>
+      <div class="campus-block" style="background:linear-gradient(145deg, #B8963E 0%, #8B6E2A 100%);">
+        <div class="campus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <div class="campus-block-inner">
+          <span class="campus-block-tag" style="color:rgba(11,30,61,0.9); background:rgba(11,30,61,0.15);">Événements</span>
+          <div class="campus-block-title" style="color:#0B1E3D; font-weight:600;">Forum Entreprises & Conférences</div>
+        </div>
+      </div>
+      <div class="campus-block" style="background:linear-gradient(145deg, #1E3A6E 0%, #0B1E3D 100%);">
+        <div class="campus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></div>
+        <div class="campus-block-inner">
+          <span class="campus-block-tag">Bibliothèque</span>
+          <div class="campus-block-title">Ressources académiques & Bibliothèque numérique</div>
+        </div>
+      </div>
+      <div class="campus-block" style="grid-column: 2/4; background:linear-gradient(145deg, #26215C 0%, #162B52 100%);">
+        <div class="campus-block-inner">
+          <span class="campus-block-tag">International</span>
+          <div class="campus-block-title">Mobilité internationale & Partenariats avec universités étrangères</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTENAIRES -->
+<section class="partners">
+  <div class="container">
+    <div class="partners-header reveal">
+      <div class="section-label" style="justify-content:center;">Partenaires</div>
+      <h2 class="section-title" style="text-align:center;">Un réseau <em>international</em> de confiance</h2>
+    </div>
+
+    <div class="partners-logos reveal reveal-delay-1">
+      <div class="partner-logo-box">
+        <div>
+          <div class="partner-name">Université de Douala</div>
+          <span class="partner-country">Cameroun</span>
+        </div>
+      </div>
+      <div class="partner-logo-box">
+        <div>
+          <div class="partner-name">Université Paris-Dauphine</div>
+          <span class="partner-country">France</span>
+        </div>
+      </div>
+      <div class="partner-logo-box">
+        <div>
+          <div class="partner-name">ISCAE Casablanca</div>
+          <span class="partner-country">Maroc</span>
+        </div>
+      </div>
+      <div class="partner-logo-box">
+        <div>
+          <div class="partner-name">ISM Dakar</div>
+          <span class="partner-country">Sénégal</span>
+        </div>
+      </div>
+      <div class="partner-logo-box">
+        <div>
+          <div class="partner-name">Chambre de Commerce</div>
+          <span class="partner-country">Cameroun</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTUALITES -->
+<section class="news" id="news">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:flex-end;" class="reveal">
+      <div>
+        <div class="section-label">Actualités</div>
+        <h2 class="section-title">La vie de <em>l'école</em></h2>
+      </div>
+      <a href="#" class="btn-outline" style="color:var(--navy); border-color:var(--border); white-space:nowrap; font-size:13px; padding:10px 20px;">
+        Toutes les actualités →
+      </a>
+    </div>
+
+    <div class="news-grid">
+      <div class="news-featured reveal reveal-delay-1">
+        <span class="news-featured-badge">À la une</span>
+        <h3 class="news-featured-title">Résultats du Concours d'entrée 2025 — Liste des admis disponible</h3>
+        <p class="news-featured-excerpt">Les résultats du concours d'entrée de l'ESSEC Douala 2025 sont désormais disponibles en ligne. Retrouvez la liste des candidats admis par filière et les instructions pour la suite du processus d'inscription.</p>
+        <div class="news-featured-date">15 Juin 2025</div>
+        <a href="#" class="news-link">Consulter les résultats <svg style="width:14px;height:14px;" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      </div>
+
+      <div class="news-list reveal reveal-delay-2">
+        <div class="news-item">
+          <div class="news-item-cat">Admissions</div>
+          <div class="news-item-title">Ouverture des inscriptions Master 2 Recherche — Session 2025</div>
+          <div class="news-item-date">28 Février 2025</div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-cat">Événement</div>
+          <div class="news-item-title">Forum Entreprises 2025 : 80 recruteurs présents sur le campus</div>
+          <div class="news-item-date">12 Février 2025</div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-cat">Classement</div>
+          <div class="news-item-title">L'ESSEC Douala maintient sa position dans le Top 10 Afrique francophone</div>
+          <div class="news-item-date">5 Janvier 2025</div>
+        </div>
+        <div class="news-item">
+          <div class="news-item-cat">Partenariat</div>
+          <div class="news-item-title">Nouveau accord de partenariat avec l'Université Paris-Dauphine</div>
+          <div class="news-item-date">20 Décembre 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:4rem;" class="reveal">
+      <div class="section-label" style="justify-content:center;">Contact</div>
+      <h2 class="section-title">Prenons <em>contact</em></h2>
+      <p class="section-subtitle" style="margin:0 auto; text-align:center;">
+        Notre équipe d'admission est disponible pour répondre à toutes vos questions du lundi au vendredi, de 8h à 17h.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-detail">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Adresse</div>
+            <div class="contact-detail-value">B.P. 1931, Douala<br>Région du Littoral, Cameroun</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Téléphone</div>
+            <div class="contact-detail-value">(+237) 695 173 311</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">essec@essec-douala.cm</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail-label">Horaires</div>
+            <div class="contact-detail-value">Lundi – Vendredi<br>08h00 – 17h00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-title" style="margin-bottom:0.5rem;">Envoyez-nous un message</div>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:1.5rem;">Nous vous répondons dans les 24 heures ouvrables.</p>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Prénom</label>
+            <input type="text" class="form-control" placeholder="Votre prénom">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Nom</label>
+            <input type="text" class="form-control" placeholder="Votre nom">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="votre@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Objet</label>
+          <select class="form-control">
+            <option>Demande d'information sur une formation</option>
+            <option>Admission et concours</option>
+            <option>Partenariat institutionnel</option>
+            <option>Presse et communication</option>
+            <option>Autre demande</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Détaillez votre demande..." style="resize:vertical;"></textarea>
+        </div>
+        <button class="form-submit" type="button">Envoyer le message →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="nav-logo" style="margin-bottom:0;">
+          <div class="logo-mark">
+            <img src="images/logo ESSEC.webp" alt="Logo ESSEC Douala" class="logo-image">
+          </div>
+          <div>
+            <div class="logo-text-main" style="color:white;">ESSEC Douala</div>
+            <div class="logo-text-sub">École de Management</div>
+          </div>
+        </div>
+        <p class="footer-brand-desc" style="margin-top:1.25rem;">
+          L'École Supérieure des Sciences Économiques et Commerciales de Douala, depuis 1977 au service de l'excellence académique et de la formation des leaders africains.
+        </p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/essecdouala" class="footer-social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="white" opacity="0.7" width="16" height="16"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/school/essec-douala" class="footer-social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="white" opacity="0.7" width="16" height="16"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://wa.me/237695173311" class="footer-social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="white" opacity="0.7" width="16" height="16"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </a>
+        </div>
+        <div class="footer-newsletter-box">
+          <div class="footer-newsletter-title">Newsletter ESSEC</div>
+          <div class="footer-newsletter-sub">Actualités, concours et événements</div>
+          <div class="footer-newsletter-form">
+            <input type="email" class="footer-newsletter-input" placeholder="Votre email">
+            <button class="footer-newsletter-btn">S'abonner</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Formations</div>
+        <div class="footer-links">
+          <a href="#">Bachelor en Management</a>
+          <a href="#">Licence Professionnelle</a>
+          <a href="#">Master Professionnel</a>
+          <a href="#">MBA & EMBA</a>
+          <a href="#">Master 2 Recherche</a>
+          <a href="#">Doctorat</a>
+          <a href="#">FORIC</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">L'École</div>
+        <div class="footer-links">
+          <a href="#">À propos</a>
+          <a href="#">Direction</a>
+          <a href="#">Organigramme</a>
+          <a href="#">Corps enseignant</a>
+          <a href="#">Recherche</a>
+          <a href="#">Publications</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Admissions</div>
+        <div class="footer-links">
+          <a href="#">Procédure d'admission</a>
+          <a href="#">Calendrier concours</a>
+          <a href="#">Frais de scolarité</a>
+          <a href="#">Résultats</a>
+          <a href="#">Guide d'orientation</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div class="footer-col-title" style="margin-top:2rem;">Ressources</div>
+        <div class="footer-links">
+          <a href="#">Espace Étudiant</a>
+          <a href="#">Galerie photos</a>
+          <a href="#">Documents</a>
+          <a href="#">Clubs & Associations</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 ESSEC Douala. Tous droits réservés. Fondée en 1977.</div>
+      <div class="footer-legal">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Conditions d'utilisation</a>
+        <a href="#">Plan du site</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/237695173311" class="wa-btn" aria-label="Contactez sur WhatsApp" target="_blank">
+  <svg viewBox="0 0 448 512" aria-hidden="true">
+    <path d="M380.9 97.1C339 55.1 283.7 32 224.1 32 100.3 32 0 132.3 0 256.1c0 45.2 11.8 89.2 34.2 127.9L0 480l98.9-31.1c36.9 20.2 78.8 30.8 125.1 30.8h.1c123.8 0 224.1-100.2 224.1-224 0-59.4-23.2-115.5-65.2-157.6zm-55.5 235.3c-.3.8-1.5 1.4-2.1 1.5-.6.1-1.2.1-4.1-1.2-3.1-1.4-5.2-4.4-5.3-4.6-.1-.2-1.2-1.4-1.2-2.7 0-1.3.7-1.9.9-2.2.2-.3.5-.3.7-.3.2 0 .4 0 .5 0 .2 0 .4-.1.6.5.2.5.7 1.8.7 2 .1.2.1.4 0 .6-.1.2-.2.4-.3.6-.1.2-.3.5-.4.7-.1.2-.1.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.8-.2-.3 0-.6.1-.7.1-.2.4-.4.6-.6.2-.2.4-.3.6-.3.2 0 .4 0 .6 0 .2 0 .5 0 .7.0.2 0 .5.0 .8.2.3.2 1.0 1.0 1.0 1.1.1.1.1.2.2.3.1.1.1.2 0 .3-.1.1-.1.2-.3.4-.1.1-.3.3-.4.5-.1.2-.2.3-.4.5-.1.2-.0.4.0.5.1.2.3.3.4.5.2.2.4.3.6.5.2.1.4.3.6.4.2.1.4.3.5.4.2.1.4.3.5.4.1.1.2.2.3.4.1.1.2.3.2.4.1.1.1.2.2.4.1.2.3.3.5.4.2.1.4.3.6.3.2.1.4.2.4.3.2.1.4.2.4.3.2.1.4.2.3.4.2.2.4.3.5.6.2.2.3.4.5.6.2.1.3.2.4.3.2.2.4.4.6.6.2.2.3.3.4.6.1.2.3.4.4.6.1.2.2.4.3.6.1.3.2.5.3.7.3.1.0.2.0.3.0.1.0.2.0z" fill="white"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
