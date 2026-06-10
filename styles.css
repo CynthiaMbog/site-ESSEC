@@ -1441,10 +1441,14 @@ footer {
   .nav-links, .nav-cta { display: none; }
   .nav-burger { display: flex; }
   .nav-inner { padding: 0 1rem; height: auto; }
-  .hero { min-height: auto; padding-bottom: 80px; }
-  .hero-content { padding: 3rem 1.5rem 5rem; }
+  .hero { min-height: auto; }
+  .hero-content { padding: 3rem 1.5rem 2rem; }
   .hero-right { grid-template-columns: 1fr; }
-  .hero-stats-inner { grid-template-columns: repeat(2, 1fr); }
+  .hero-stats {
+    position: static;
+    margin-top: 1.5rem;
+  }
+  .hero-stats-inner { grid-template-columns: 1fr 1fr; }
   .formations-grid { grid-template-columns: 1fr; }
   .campus-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
@@ -1452,7 +1456,6 @@ footer {
   .formations-header { flex-direction: column; align-items: flex-start; }
   .partners-logos { grid-template-columns: repeat(2, 1fr); }
   .form-row { grid-template-columns: 1fr; }
-  .hero-stats-inner { grid-template-columns: 1fr 1fr; }
   .wa-btn { bottom: 1.25rem; right: 1.25rem; width: 48px; height: 48px; }
   .wa-btn svg { width: 22px; height: 22px; }
 }
